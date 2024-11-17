@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", serif;
+  box-sizing: border-box;
+}
+
+.section-card {
+  margin: 0 165px;
+  margin-top: 100px;
+  height: 809px;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  position: relative;
+  gap: 34px;
+}
+.card-content {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 60px;
+  gap: 80px;
+}
+.card-content-item {
+  width: 520px;
+}
+
+.card-content .card-content-item h1 {
+  width: 100%;
+  height: 96px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  color: #091133;
+  margin-bottom: 16px;
+}
+
+.card-content .card-content-item p {
+  width: 100%;
+  height: 140px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #6f7cb2;
+}
+.card-content-item-fetured {
+  width: 540px;
+  height: 120px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+}
+
+.card-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.icon-card img {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+}
+
+.card-info h2 {
+  font-weight: 500;
+  font-size: 16px;
+  height: 26px;
+  line-height: 26px;
+  margin: 9px 0 6px;
+}
+
+.card-info p {
+  width: 100%;
+  font-size: 12px;
+  color: #5d6970;
+  line-height: 18px;
+}
+
+.card-background {
+  width: 50%;
+}
+
+.card-background figure {
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+}
+.card-background figure img {
+  height: 809px;
+  width: 492px;
+}
